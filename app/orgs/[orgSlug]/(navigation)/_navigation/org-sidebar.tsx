@@ -53,7 +53,7 @@ export function OrgSidebar({
             key={link.title}
           >
             <SidebarGroup key={link.title}>
-              <SidebarGroupLabel asChild>
+              <SidebarGroupLabel asChild className="cursor-pointer">
                 <CollapsibleTrigger>
                   {link.title}
                   <ChevronDown className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-180" />
