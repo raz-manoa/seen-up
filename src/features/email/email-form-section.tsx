@@ -13,12 +13,12 @@ export const EmailFormSection = () => {
           variant="small"
           className="text-primary font-extrabold uppercase"
         >
-          Be the first to use Threader
+          Be the first to use Seen-up
         </Typography>
         <Typography variant="h2" className="text-center text-4xl lg:text-5xl">
           Join the waiting list of{" "}
           <span className="text-gradient from-primary to-secondary bg-gradient-to-r font-mono font-extrabold uppercase">
-            Threader
+            Seen-up
           </span>
         </Typography>
         <Typography variant="h3">

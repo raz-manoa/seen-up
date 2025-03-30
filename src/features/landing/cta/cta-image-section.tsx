@@ -23,7 +23,7 @@ export const CTAImageSection = () => {
           Start getting a lot of followers
         </Typography>
         <Typography className="text-center font-bold">
-          By posting every day with Threader !
+          By posting every day with Seen-up !
         </Typography>
         <Link href="#pricing" className={buttonVariants({ size: "lg" })}>
           Get started

@@ -18,7 +18,7 @@ export const PainSection = () => {
         <div className="flex items-start gap-4 max-lg:flex-col">
           <div className="flex-1 rounded-lg bg-red-500/20 p-4 lg:p-6">
             <Typography variant="h3" className="text-red-500">
-              😞 Posting without Threader
+              😞 Posting without Seen-up
             </Typography>
             <ul className="text-foreground/80 mt-4 ml-4 flex list-disc flex-col gap-2 text-lg">
               <li>Going on Thread every day to post</li>
@@ -29,10 +29,10 @@ export const PainSection = () => {
           </div>
           <div className="flex-1 rounded-lg bg-green-500/20 p-4 lg:p-6">
             <Typography variant="h3" className="text-green-500">
-              😎 Posting WITH Threader
+              😎 Posting WITH Seen-up
             </Typography>
             <ul className="text-foreground/80 mt-4 ml-4 flex list-disc flex-col gap-2 text-lg">
-              <li>Schedule your post on the Threader UI</li>
+              <li>Schedule your post on the Seen-up UI</li>
               <li>Avoiding opening the app every day</li>
               <li>See excatly what you have scheduled</li>
               <li>Be consistent</li>

@@ -39,19 +39,19 @@ export default function HomePage() {
           {
             image: "https://i.pravatar.cc/300?u=a1",
             name: "Sophie",
-            review: `Threader **has completely transformed the way I manage my social media** content. The ability to schedule posts and use AI for content suggestions has saved me hours each week.`,
+            review: `Seen-up **has completely transformed the way I manage my social media** content. The ability to schedule posts and use AI for content suggestions has saved me hours each week.`,
             role: "Digital Marketer",
           },
           {
             image: "https://i.pravatar.cc/300?u=a2",
             name: "Alex",
-            review: `Using Threader has significantly boosted my online engagement. **The analytics tool helps me understand what works**, allowing me to refine my strategy and grow my follower base.`,
+            review: `Using Seen-up has significantly boosted my online engagement. **The analytics tool helps me understand what works**, allowing me to refine my strategy and grow my follower base.`,
             role: "Social Media Influencer",
           },
           {
             image: "https://i.pravatar.cc/300?u=a3",
             name: "Jordan",
-            review: `The ease of scheduling and the AI-generated content features are game-changers. **Threader's user-friendly interface** makes it perfect for anyone looking to enhance their online presence.`,
+            review: `The ease of scheduling and the AI-generated content features are game-changers. **Seen-up's user-friendly interface** makes it perfect for anyone looking to enhance their online presence.`,
             role: "Entrepreneur",
           },
         ]}
@@ -62,7 +62,7 @@ export default function HomePage() {
       <ReviewSingle
         image="https://i.pravatar.cc/300?u=5"
         name="Michel"
-        review={`Threader **has completely transformed** the way I manage my social media content. The ability to schedule posts and use AI for content suggestions **has saved me hours each week.**`}
+        review={`Seen-up **has completely transformed** the way I manage my social media content. The ability to schedule posts and use AI for content suggestions **has saved me hours each week.**`}
         role="Digital Marketer"
         compagnyImage="https://1000logos.net/wp-content/uploads/2017/03/McDonalds-Logo-2003.png"
         key={1}
@@ -75,7 +75,7 @@ export default function HomePage() {
           {
             badge: "⏰ Schedule",
             title: "Schedule your post",
-            description: "Schedule your post on the Threader in a few clicks.",
+            description: "Schedule your post on the Seen-up in a few clicks.",
             component: (
               <Image
                 src="/images/placeholder1.gif"
@@ -148,9 +148,9 @@ export default function HomePage() {
       <FAQSection
         faq={[
           {
-            question: "What is Threader?",
+            question: "What is Seen-up?",
             answer:
-              "Threader is an innovative platform designed to help you write, schedule, and publish content to your account with the assistance of AI, enhancing your business's online presence.",
+              "Seen-up is an innovative platform designed to help you write, schedule, and publish content to your account with the assistance of AI, enhancing your business's online presence.",
           },
           {
             question: "How does AI Content Generation work?",
@@ -160,7 +160,7 @@ export default function HomePage() {
           {
             question: "Can I schedule my threads in advance?",
             answer:
-              "Yes, with Threader, you can schedule your threads for a specific time, allowing you to maintain a consistent online presence without the need to manually post every day.",
+              "Yes, with Seen-up, you can schedule your threads for a specific time, allowing you to maintain a consistent online presence without the need to manually post every day.",
           },
           {
             question: "What is the Now.TS project?",
@@ -173,14 +173,14 @@ export default function HomePage() {
               "To gain more followers, focus on creating content related to Next.js, as our analysis shows it's highly engaging. Utilize our research tools to understand trends and improve your content strategy.",
           },
           {
-            question: "What are the benefits of posting with Threader?",
+            question: "What are the benefits of posting with Seen-up?",
             answer:
-              "Posting with Threader allows you to schedule posts, avoid daily manual postings, track your scheduled content easily, and maintain consistency in your online activity.",
+              "Posting with Seen-up allows you to schedule posts, avoid daily manual postings, track your scheduled content easily, and maintain consistency in your online activity.",
           },
           {
-            question: "What pricing plans does Threader offer?",
+            question: "What pricing plans does Seen-up offer?",
             answer:
-              "Threader offers two pricing plans: THREADER FREE, perfect for tiny creators, allowing you to schedule 1 post in advance; and THREADER PREMIUM, ideal for content creators, offering unlimited scheduling, post previews, and auto-reposting features.",
+              "Seen-up offers two pricing plans: THREADER FREE, perfect for tiny creators, allowing you to schedule 1 post in advance; and THREADER PREMIUM, ideal for content creators, offering unlimited scheduling, post previews, and auto-reposting features.",
           },
         ]}
       />
@@ -193,70 +193,70 @@ export default function HomePage() {
             image: "https://i.pravatar.cc/300?u=b1",
             name: "Eva",
             review:
-              "Since I started using Threader, my content creation process has been streamlined. The AI suggestions are spot on, helping me to connect better with my audience. Highly recommend for anyone looking to elevate their content game.",
+              "Since I started using Seen-up, my content creation process has been streamlined. The AI suggestions are spot on, helping me to connect better with my audience. Highly recommend for anyone looking to elevate their content game.",
             role: "Content Creator",
           },
           {
             image: "https://i.pravatar.cc/300?u=b2",
             name: "Lucas",
             review:
-              "Threader's scheduling feature is a lifesaver. It allows me to plan my content calendar efficiently, ensuring I never miss posting on the optimal days and times. Fantastic tool for social media managers.",
+              "Seen-up's scheduling feature is a lifesaver. It allows me to plan my content calendar efficiently, ensuring I never miss posting on the optimal days and times. Fantastic tool for social media managers.",
             role: "Social Media Manager",
           },
           {
             image: "https://i.pravatar.cc/300?u=b3",
             name: "Mia",
             review:
-              "The analytics provided by Threader are invaluable. They've given me insights into what my audience loves, helping me double my engagement rate in just a few months.",
+              "The analytics provided by Seen-up are invaluable. They've given me insights into what my audience loves, helping me double my engagement rate in just a few months.",
             role: "Digital Marketer",
           },
           {
             image: "https://i.pravatar.cc/300?u=b4",
             name: "Noah",
             review:
-              "I was skeptical about AI-generated content, but Threader changed my mind. The content feels personal and has significantly increased my interaction rates.",
+              "I was skeptical about AI-generated content, but Seen-up changed my mind. The content feels personal and has significantly increased my interaction rates.",
             role: "Blogger",
           },
           {
             image: "https://i.pravatar.cc/300?u=b5",
             name: "Isabella",
             review:
-              "Threader's user interface is incredibly user-friendly. I was able to onboard my team in no time, and we've seen a marked improvement in our social media performance.",
+              "Seen-up's user interface is incredibly user-friendly. I was able to onboard my team in no time, and we've seen a marked improvement in our social media performance.",
             role: "Team Leader",
           },
           {
             image: "https://i.pravatar.cc/300?u=b6",
             name: "Oliver",
             review:
-              "Auto-reposting with Threader is a feature I didn't know I needed. It's great for getting more mileage out of your best content without any extra effort.",
+              "Auto-reposting with Seen-up is a feature I didn't know I needed. It's great for getting more mileage out of your best content without any extra effort.",
             role: "Freelancer",
           },
           {
             image: "https://i.pravatar.cc/300?u=b7",
             name: "Sophia",
             review:
-              "Joining the Threader community has opened up networking opportunities with fellow content creators. It's more than just a tool; it's a platform for growth.",
+              "Joining the Seen-up community has opened up networking opportunities with fellow content creators. It's more than just a tool; it's a platform for growth.",
             role: "Influencer",
           },
           {
             image: "https://i.pravatar.cc/300?u=b8",
             name: "Elijah",
             review:
-              "The calendar view in Threader helps me visualize my content strategy for the entire month. It's been a game changer for my planning process.",
+              "The calendar view in Seen-up helps me visualize my content strategy for the entire month. It's been a game changer for my planning process.",
             role: "Strategist",
           },
           {
             image: "https://i.pravatar.cc/300?u=b9",
             name: "Charlotte",
             review:
-              "I appreciate the flexibility in Threader's pricing plans. It's accessible for creators at any stage of their journey, from beginners to established influencers.",
+              "I appreciate the flexibility in Seen-up's pricing plans. It's accessible for creators at any stage of their journey, from beginners to established influencers.",
             role: "Entrepreneur",
           },
           {
             image: "https://i.pravatar.cc/300?u=b10",
             name: "James",
             review:
-              "The customer support team at Threader is fantastic. They've been quick to respond and helpful with any questions I've had. Great service overall.",
+              "The customer support team at Seen-up is fantastic. They've been quick to respond and helpful with any questions I've had. Great service overall.",
             role: "Customer",
           },
         ]}
