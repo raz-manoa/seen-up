@@ -1,8 +1,8 @@
 export const SiteConfig = {
   title: "SEEN-UP",
   description: "Collect and showcase powerful video and text testimonials",
-  prodUrl: "https://seen-up.app",
-  domain: "seen-up.app",
+  prodUrl: "https://seen-up.vercel.app",
+  domain: "seen-up.vercel.app",
   appIcon: "/images/icon.png",
   company: {
     name: "SEEN-UP",
@@ -13,7 +13,7 @@ export const SiteConfig = {
   },
   team: {
     image: "/images/manoa.png",
-    website: "https://seen-up.app",
+    website: "https://seen-up.vercel.app",
     twitter: "https://twitter.com/manoaraz",
     name: "Manoa",
   },
