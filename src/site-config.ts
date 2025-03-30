@@ -12,10 +12,10 @@ export const SiteConfig = {
     primary: "#007291", // You can adjust this to your brand color
   },
   team: {
-    image: "https://melvynx.com/images/me/twitter-en.jpg",
-    website: "https://melvynx.com",
-    twitter: "https://twitter.com/melvyn_me",
-    name: "Melvynx",
+    image: "/images/manoa.png",
+    website: "https://seen-up.app",
+    twitter: "https://twitter.com/manoaraz",
+    name: "Manoa",
   },
   features: {
     /**
