@@ -68,7 +68,9 @@ export default function HomePage() {
         key={1}
       />
 
-      <FeaturesSection
+      <SectionDivider />
+
+      {/* <FeaturesSection
         features={[
           {
             badge: "⏰ Schedule",
@@ -133,7 +135,7 @@ export default function HomePage() {
             ),
           },
         ]}
-      />
+      /> */}
 
       <CTAImageSection />
 

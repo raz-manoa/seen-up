@@ -51,7 +51,7 @@ const Skeleton1 = () => {
       <motion.div className="border-border bg-background flex flex-row items-start gap-2 rounded-2xl border p-3">
         <img
           alt="avatar"
-          src="https://melvynx.com/_next/image?url=%2Fimages%2Fmy-face.png&w=828&q=75"
+          src="/images/face-placeholder.jpg"
           className="size-6 shrink-0 rounded-full"
         />
         <div>
@@ -227,7 +227,7 @@ const Skeleton5 = () => {
         className="border-border bg-background flex flex-row items-start gap-2 rounded-2xl border p-3"
       >
         <img
-          src="https://melvynx.com/_next/image?url=%2Fimages%2Fmy-face.png&w=828&q=75"
+          src="/images/face-placeholder.jpg"
           alt="avatar"
           height="100"
           width="100"
