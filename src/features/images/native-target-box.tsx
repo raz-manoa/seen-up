@@ -83,7 +83,7 @@ export const NativeTargetBox = ({
       onDragLeave={handleDragLeave}
       onDrop={handleDrop}
       style={{
-        background: isDrop ? "hsl(var(--background) / 0.5)" : undefined,
+        background: isDrop ? "var(--background) / 0.5" : undefined,
         padding: "20px",
         borderRadius: "5px",
         textAlign: "center",

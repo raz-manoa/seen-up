@@ -46,7 +46,7 @@ export default function RootLayout({
               <NextTopLoader
                 delay={100}
                 showSpinner={false}
-                color="hsl(var(--primary))"
+                color="var(--primary)"
               />
               {children}
               {modal}

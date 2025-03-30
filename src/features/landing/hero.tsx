@@ -31,10 +31,12 @@ export const Hero = () => {
               your account with AI.
             </Typography>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-            <ShimmerButton
+              <ShimmerButton
                 href="/signin"
+                shimmerColor="#091E05"
+                shimmerSize="0.09em"
                 background="var(--primary)"
-                className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-400"
+                className="rounded-md px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-amber-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-amber-400"
               >
                 Get started
               </ShimmerButton>

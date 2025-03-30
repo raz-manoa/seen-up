@@ -1,7 +1,7 @@
 "use client";
 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Button } from "@/components/ui/button";
+import { SidebarMenuButton } from "@/components/ui/sidebar";
 import { useSession } from "@/lib/auth-client";
 import { UserDropdown } from "../auth/user-dropdown";
 
@@ -10,13 +10,13 @@ export const SidebarUserButton = () => {
   const data = session.data?.user;
   return (
     <UserDropdown>
-      <Button variant="outline">
+      <SidebarMenuButton variant="outline">
         <Avatar className="size-6">
           <AvatarFallback>{data?.name[0] ?? "-"}</AvatarFallback>
           {data?.image && <AvatarImage src={data.image} />}
         </Avatar>
         <span>{data?.name}</span>
-      </Button>
+      </SidebarMenuButton>
     </UserDropdown>
   );
 };
