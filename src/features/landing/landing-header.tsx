@@ -64,24 +64,6 @@ export function LandingHeader() {
         <div className="flex items-center gap-1">
           <LogoSvg
             size={24}
-            onClick={() => {
-              dialogManager.add({
-                title: "Rename campaign",
-                description: "Enter a new name for this campaign",
-                input: {
-                  label: "Name",
-                  defaultValue: "Some value",
-                  placeholder: "Enter a new name",
-                },
-                action: {
-                  label: "Rename",
-                  onClick: async (value) => {
-                    if (!value) return;
-                    // TODO
-                  },
-                },
-              });
-            }}
           />
           <motion.p
             style={{
